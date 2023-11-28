@@ -1,0 +1,1 @@
+var kaimo = "hello typescript";
