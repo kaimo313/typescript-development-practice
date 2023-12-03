@@ -1,5 +1,6 @@
 // import "./datatype";
-import "./enum";
+// import "./enum";
+import "./object-interface";
 
 let kaimo:string = "hello typescript";
 
