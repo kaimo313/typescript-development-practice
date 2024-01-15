@@ -2,7 +2,8 @@
 // import "./enum";
 // import "./object-interface";
 // import "./function-interface";
-import "./functions-extend";
+// import "./functions-extend";
+import "./class2";
 
 let kaimo:string = "hello typescript";
 
