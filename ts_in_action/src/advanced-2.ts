@@ -38,8 +38,8 @@ let c1 = (...args: number[]) => {}
 
 a1 = b1
 a1 = c1
-b1 = c1
-b1 = a1
+// b1 = c1
+// b1 = a1
 c1 = a1
 c1 = b1
 
@@ -86,7 +86,7 @@ enum Color {
 }
 // let fruit: Fruit.Apple = 3;
 let no: number = Fruit.Apple;
-// let color: Color = Fruit.Apple;
+// let color: Color.Red = Fruit.Apple;
 
 // 类兼容
 class A {
