@@ -114,20 +114,22 @@ aa = cc
 cc = aa
 
 // 泛型兼容性
-// interface Empty<T> {}
+// interface Empty<T> {
+//     value: T
+// }
 // let obj11: Empty<number> = {}
 // let obj22: Empty<string> = {}
 // obj11 = obj22
 
-interface Empty<T> {
-    value: T;
-}
-let log11 = <T>(x: T): T => {
-    console.log("x");
-    return x;
-}
-let log22 = <U>(y: U): U => {
-    console.log("y");
-    return y;
-}
-log11 = log22
+// interface Empty<T> {
+//     value: T;
+// }
+// let log11 = <T>(x: T): T => {
+//     console.log("x");
+//     return x;
+// }
+// let log22 = <U>(y: U): U => {
+//     console.log("y");
+//     return y;
+// }
+// log11 = log22
